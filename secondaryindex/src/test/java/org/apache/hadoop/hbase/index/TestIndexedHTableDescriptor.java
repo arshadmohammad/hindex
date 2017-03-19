@@ -30,8 +30,8 @@ import java.io.DataOutputStream;
 import java.util.List;
 
 import org.apache.hadoop.hbase.HColumnDescriptor;
-import org.apache.hadoop.hbase.MediumTests;
 import org.apache.hadoop.hbase.index.ColumnQualifier.ValueType;
+import org.apache.hadoop.hbase.testclassification.MediumTests;
 import org.apache.hadoop.hbase.util.Bytes;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;

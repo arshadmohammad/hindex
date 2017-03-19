@@ -25,8 +25,8 @@ import static org.junit.Assert.assertTrue;
 import java.io.ByteArrayInputStream;
 import java.io.ObjectInputStream;
 
-import org.apache.hadoop.hbase.MediumTests;
 import org.apache.hadoop.hbase.index.Column;
+import org.apache.hadoop.hbase.testclassification.MediumTests;
 import org.apache.hadoop.hbase.util.Bytes;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;

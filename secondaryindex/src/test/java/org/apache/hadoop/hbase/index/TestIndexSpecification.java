@@ -31,8 +31,8 @@ import java.util.Set;
 
 import org.apache.hadoop.hbase.HColumnDescriptor;
 import org.apache.hadoop.hbase.HConstants;
-import org.apache.hadoop.hbase.MediumTests;
 import org.apache.hadoop.hbase.index.ColumnQualifier.ValueType;
+import org.apache.hadoop.hbase.testclassification.MediumTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 

@@ -22,12 +22,10 @@ package org.apache.hadoop.hbase.index;
 import java.util.ArrayList;
 import java.util.List;
 
-import junit.framework.Assert;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.HBaseTestingUtility;
 import org.apache.hadoop.hbase.HColumnDescriptor;
-import org.apache.hadoop.hbase.LargeTests;
 import org.apache.hadoop.hbase.client.HBaseAdmin;
 import org.apache.hadoop.hbase.client.HTable;
 import org.apache.hadoop.hbase.client.Put;
@@ -47,8 +45,10 @@ import org.apache.hadoop.hbase.index.coprocessor.master.IndexMasterObserver;
 import org.apache.hadoop.hbase.index.coprocessor.regionserver.IndexRegionObserver;
 import org.apache.hadoop.hbase.index.coprocessor.wal.IndexWALObserver;
 import org.apache.hadoop.hbase.index.filter.SingleColumnValuePartitionFilter;
+import org.apache.hadoop.hbase.testclassification.LargeTests;
 import org.junit.After;
 import org.junit.AfterClass;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
